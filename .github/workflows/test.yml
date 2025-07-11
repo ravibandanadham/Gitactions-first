@@ -6,7 +6,7 @@ jobs:
   test: 
     runs-on: ubuntu-latest 
     steps:
-     - name: checkout 
+     - name: sayhello 
        run: echo "hello word"
     
   
