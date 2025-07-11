@@ -1,0 +1,14 @@
+#this is my first worflow for testing 
+name: Hello Workflow 
+on: 
+  workflow_dispatch: 
+jobs: 
+  test: 
+    runs-on: ubuntu:latest 
+    steps:
+     - name: checkout 
+       run: echo "hello word"
+    
+  
+
+
